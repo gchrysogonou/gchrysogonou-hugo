@@ -1,0 +1,43 @@
+# -- Main Menu --
+
+[[main]]
+  name = "Blog"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Notes"
+  pageRef = "notes"
+  weight = 20
+
+[[main]]
+  name = "Work"
+  pageRef = "work"
+  weight = 30
+
+[[main]]
+  name = "Podcast"
+  pageRef = "podcast"
+  weight = 40
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 50
+
+[[main]]
+  name = "Επικοινωνία"
+  pageRef = "contact"
+  weight = 60
+
+# -- Footer Menu --
+
+[[footer]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 10
+
+[[footer]]
+  name = "About"
+  pageRef = "about"
+  weight = 20

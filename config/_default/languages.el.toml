@@ -1,0 +1,28 @@
+disabled = false
+languageCode = "el"
+languageName = "Ελληνικά"
+weight = 1
+title = "Giannis Chrysogonou"
+
+[params]
+  displayName = "EL"
+  isoCode = "el"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Voice-Over Artist, Sound Designer & Radio DJ"
+
+[params.author]
+  name = "Giannis Chrysogonou"
+  image = "img/author.jpg"
+  headline = "Voice-Over Artist, Sound Designer & Radio DJ"
+  bio = "Freelance voice-over artist και sound designer. Δουλεύω με μουσική και ραδιοφωνικά προγράμματα στο Best 92.6."
+  links = [
+    { email = "mailto:giannis@gchrysogonou.gr" },
+    { instagram = "https://instagram.com/gchrysogonou" },
+    { facebook = "https://facebook.com/gchrysogonou" },
+    { x-twitter = "https://twitter.com/gchrysogonou" },
+    { linkedin = "https://linkedin.com/in/gchrysogonou" },
+    { youtube = "https://youtube.com/gchrysogonou" },
+    { soundcloud = "https://soundcloud.com/gchrysogonou" },
+    { spotify = "https://open.spotify.com/user/gchrysogonou" },
+  ]

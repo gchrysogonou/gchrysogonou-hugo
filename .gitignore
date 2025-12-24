@@ -1,0 +1,16 @@
+# Hugo
+public/
+resources/
+.hugo_build.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian
+.obsidian/
+.trash/
+
+# Editor
+.vscode/
+.idea/
