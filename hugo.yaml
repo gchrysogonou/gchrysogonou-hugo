@@ -1,4 +1,4 @@
-baseURL: "https://gchrysogonou.gr/"
+baseURL: "https://gchrysogonou-hugo.vercel.app/"
 languageCode: el
 title: Giannis Chrysogonou
 theme: PaperMod
