@@ -1,0 +1,121 @@
+baseURL: "https://gchrysogonou.gr/"
+languageCode: el
+title: Giannis Chrysogonou
+theme: PaperMod
+
+pagination:
+  pagerSize: 10
+
+# Build settings
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+# Minify output
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Giannis Chrysogonou
+  description: "Voice-Over Artist, Sound Designer & Radio DJ"
+  author: Giannis Chrysogonou
+
+  # Theme settings
+  defaultTheme: auto  # dark, light, or auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # Home page - Profile Mode
+  profileMode:
+    enabled: true
+    title: "Giannis Chrysogonou"
+    subtitle: "Voice-Over Artist, Sound Designer & Radio DJ"
+    imageUrl: "img/author.jpg"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: "Giannis Chrysogonou"
+  # Social icons
+  socialIcons:
+    - name: email
+      url: "mailto:giannis@gchrysogonou.gr"
+    - name: instagram
+      url: "https://instagram.com/gchrysogonou"
+    - name: facebook
+      url: "https://facebook.com/gchrysogonou"
+    - name: x
+      url: "https://twitter.com/gchrysogonou"
+    - name: linkedin
+      url: "https://linkedin.com/in/gchrysogonou"
+    - name: youtube
+      url: "https://youtube.com/gchrysogonou"
+    - name: soundcloud
+      url: "https://soundcloud.com/gchrysogonou"
+    - name: spotify
+      url: "https://open.spotify.com/user/gchrysogonou"
+
+  # Cover image settings
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # Search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# Menu
+menu:
+  main:
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: notes
+      name: Notes
+      url: /notes/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 40
+
+# Outputs for search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# Markup settings
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
+  goldmark:
+    renderer:
+      unsafe: true

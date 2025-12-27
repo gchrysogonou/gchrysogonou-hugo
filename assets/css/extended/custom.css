@@ -1,0 +1,9 @@
+/* Smaller social icons */
+.social-icons a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icons {
+    gap: 10px;
+}
