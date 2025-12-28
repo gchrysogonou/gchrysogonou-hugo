@@ -29,7 +29,14 @@ collections:
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Description", name: "description", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
-      - { label: "Cover Image", name: "image", widget: "image", required: false }
+      - label: "Cover Image"
+        name: "cover"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Image", name: "image", widget: "image", required: false }
+          - { label: "Alt Text", name: "alt", widget: "string", required: false }
+          - { label: "Caption", name: "caption", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # Notes (microblog)
