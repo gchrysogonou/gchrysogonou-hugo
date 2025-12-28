@@ -45,11 +45,40 @@ body {
     }
 }
 
-/* Smaller cover images in blog list */
+/* Horizontal layout for blog list */
+.post-entry {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.post-entry .entry-cover {
+    flex-shrink: 0;
+    width: 200px;
+}
+
 .post-entry .entry-cover img {
-    max-height: 200px;
-    width: auto;
-    object-fit: contain;
+    width: 200px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Stack vertically on mobile */
+@media (max-width: 600px) {
+    .post-entry {
+        flex-direction: column;
+    }
+
+    .post-entry .entry-cover {
+        width: 100%;
+    }
+
+    .post-entry .entry-cover img {
+        width: 100%;
+        height: 180px;
+    }
 }
 
 /* Meta info */
