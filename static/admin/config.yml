@@ -71,3 +71,19 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "text", required: false }
           - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Work"
+        name: "work"
+        file: "content/work/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
+
+      - label: "Podcast"
+        name: "podcast"
+        file: "content/podcast/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text", required: false }
+          - { label: "Body", name: "body", widget: "markdown" }
