@@ -46,14 +46,10 @@ body {
 }
 
 /* Smaller cover images in blog list */
-.post-entry .entry-cover {
-    max-height: 200px;
-    overflow: hidden;
-}
-
 .post-entry .entry-cover img {
-    object-fit: cover;
-    object-position: center;
+    max-height: 150px;
+    width: auto;
+    object-fit: contain;
 }
 
 /* Meta info */
