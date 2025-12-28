@@ -93,6 +93,14 @@ menu:
       name: Notes
       url: /notes/
       weight: 20
+    - identifier: work
+      name: Work
+      url: /work/
+      weight: 25
+    - identifier: podcast
+      name: Podcast
+      url: /podcast/
+      weight: 26
     - identifier: about
       name: About
       url: /about/
