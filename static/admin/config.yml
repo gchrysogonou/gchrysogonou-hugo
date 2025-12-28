@@ -1,11 +1,9 @@
-# Decap CMS Configuration
-# Docs: https://decapcms.org/docs/
-
-# For local testing (no GitHub needed)
-local_backend: true
+# Sveltia CMS Configuration
+# Docs: https://github.com/sveltia/sveltia-cms
 
 backend:
-  name: git-gateway
+  name: github
+  repo: gchrysogonou/gchrysogonou-hugo
   branch: main
 
 # Media files
