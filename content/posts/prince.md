@@ -8,7 +8,8 @@ tags:
   - prince
   - funk
   - rock
-image: /images/prince1.jpeg
+cover:
+  image: /images/prince1.jpeg
 ---
 Αυτό το άρθρο παρουσιάζει μια βιογραφία του Prince Rogers Nelson, του θρυλικού μουσικού που απεβίωσε στις 21 Απριλίου 2016 σε ηλικία 57 ετών.
 
