@@ -8,7 +8,7 @@ tags:
   - electronica
   - mix
   - podcast
-image: /images/maurice-garlet-XEF5lYUvHX8-unsplash-scaled.jpeg
+image: ''
 ---
 Πριν λίγο καιρό μου ζητήθηκε από το αγαπημένο DOC TV να δημιουργήσω ένα mix για το ξεχωριστό podcast τους.
 
