@@ -1,7 +1,6 @@
 ---
-title: "Home"
+title: Home
 ---
-
 ## Playlists
 
 {{< spotify type="playlist" id="4Fp3TMZbmkgAV7LCgezZ28?si=511d1b666ec84345" >}}
