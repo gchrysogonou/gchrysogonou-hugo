@@ -45,6 +45,17 @@ body {
     }
 }
 
+/* Smaller cover images in blog list */
+.post-entry .entry-cover {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.post-entry .entry-cover img {
+    object-fit: cover;
+    object-position: center;
+}
+
 /* Meta info */
 .post-meta {
     font-size: 13px;
