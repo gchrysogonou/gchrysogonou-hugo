@@ -47,32 +47,38 @@ body {
 
 /* Horizontal layout for blog list */
 .post-entry {
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 0 1.5rem;
+    align-items: start;
 }
 
 .post-entry .entry-cover {
-    flex-shrink: 0;
-    width: 200px;
+    grid-column: 1;
+    grid-row: 1 / 4;
 }
 
 .post-entry .entry-cover img {
-    width: 200px;
-    height: 130px;
+    width: 180px;
+    height: 120px;
     object-fit: cover;
     border-radius: 6px;
+}
+
+.post-entry .entry-header,
+.post-entry .entry-content,
+.post-entry .entry-footer {
+    grid-column: 2;
 }
 
 /* Stack vertically on mobile */
 @media (max-width: 600px) {
     .post-entry {
-        flex-direction: column;
+        display: block;
     }
 
     .post-entry .entry-cover {
-        width: 100%;
+        margin-bottom: 1rem;
     }
 
     .post-entry .entry-cover img {
