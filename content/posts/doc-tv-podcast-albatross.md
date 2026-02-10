@@ -10,11 +10,14 @@ tags:
   - podcast
 cover:
   image: /images/maurice-garlet-XEF5lYUvHX8-unsplash-scaled.jpeg
+  alt: ''
+  caption: ''
 ---
+
 Πριν λίγο καιρό μου ζητήθηκε από το αγαπημένο DOC TV να δημιουργήσω ένα mix για το ξεχωριστό podcast τους.
 
 Με χαρά δημιούργησα ένα **electronica mix** για το podcast.
 
----
+***
 
 _Ακούστε το mix στο Mixcloud._
