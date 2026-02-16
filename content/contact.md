@@ -1,24 +1,16 @@
 ---
 title: "Επικοινωνία"
-description: "Επικοινώνησε μαζί μου"
-showDate: false
-showReadingTime: false
-showAuthor: false
+date: 2019-11-26
 ---
 
-## Ας μιλήσουμε!
+# Επικοινωνία
 
-Για συνεργασίες, ερωτήσεις ή απλά για να πεις ένα γεια:
+![](images/stephen-phillips-hostreviews-co-uk-3Mhgvrk4tjM-unsplash-1024x683.jpg)
 
-**Email:** [giannis@gchrysogonou.gr](mailto:giannis@gchrysogonou.gr)
+## Social
 
----
+* * *
 
-### Social Media
+## Στείλε μου μήνυμα
 
-- [Instagram](https://instagram.com/gchrysogonou)
-- [Facebook](https://facebook.com/gchrysogonou)
-- [LinkedIn](https://linkedin.com/in/gchrysogonou)
-- [YouTube](https://youtube.com/gchrysogonou)
-- [SoundCloud](https://soundcloud.com/gchrysogonou)
-- [Spotify](https://open.spotify.com/user/gchrysogonou)
+* * *

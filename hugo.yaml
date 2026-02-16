@@ -1,7 +1,9 @@
 baseURL: "https://gchrysogonou-hugo.vercel.app/"
 languageCode: el
 title: Giannis Chrysogonou
-theme: PaperMod
+theme: hugo-theme-stack
+
+defaultContentLanguage: el
 
 pagination:
   pagerSize: 10
@@ -13,102 +15,154 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
-# Minify output
-minify:
-  disableXML: true
-  minifyOutput: true
+# Permalink structure
+permalinks:
+  posts: /posts/:slug/
+  page: /:slug/
 
 params:
-  env: production
-  title: Giannis Chrysogonou
+  mainSections:
+    - posts
   description: "Voice-Over Artist, Sound Designer & Radio DJ"
-  author: Giannis Chrysogonou
+  rssFullContent: true
+  favicon: img/favicon.png
 
-  # Theme settings
-  defaultTheme: auto  # dark, light, or auto
-  disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  disableSpecial1stPost: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
-
-  # Home page - Profile Mode
-  profileMode:
-    enabled: true
-    title: "Giannis Chrysogonou"
+  # Sidebar
+  sidebar:
+    compact: false
     subtitle: "Voice-Over Artist, Sound Designer & Radio DJ"
-    imageUrl: "/img/author.jpg"
-    imageWidth: 150
-    imageHeight: 150
-    imageTitle: "Giannis Chrysogonou"
-  # Social icons
-  socialIcons:
-    - name: email
-      url: "mailto:giannis@gchrysogonou.gr"
-    - name: instagram
-      url: "https://instagram.com/gchrysogonou"
-    - name: facebook
-      url: "https://facebook.com/gchrysogonou"
-    - name: x
-      url: "https://twitter.com/gchrysogonou"
-    - name: linkedin
-      url: "https://linkedin.com/in/gchrysogonou"
-    - name: youtube
-      url: "https://youtube.com/gchrysogonou"
-    - name: soundcloud
-      url: "https://soundcloud.com/gchrysogonou"
-    - name: spotify
-      url: "https://open.spotify.com/user/gchrysogonou"
+    avatar: img/avatar.jpg
 
-  # Cover image settings
-  cover:
-    hidden: false
-    hiddenInList: false
-    hiddenInSingle: false
+  # Footer
+  footer:
+    since: 2020
 
-  # Search
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+  # Date format
+  dateFormat:
+    published: "2 January 2006"
+    lastUpdated: "2 January 2006"
+
+  # Article settings
+  article:
+    headingAnchor: false
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+
+  # Widgets
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 15
+    page:
+      - type: toc
+
+  # Color scheme
+  colorScheme:
+    toggle: true
+    default: auto
+
+  # Comments disabled
+  comments:
+    enabled: false
+
+  # Open Graph
+  opengraph:
+    twitter:
+      card: summary_large_image
 
 # Menu
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: -100
+      params:
+        icon: home
     - identifier: posts
       name: Blog
       url: /posts/
       weight: 10
-    - identifier: notes
-      name: Notes
-      url: /notes/
-      weight: 20
+      params:
+        icon: pencil
     - identifier: work
       name: Work
       url: /work/
-      weight: 25
+      weight: 26
+      params:
+        icon: briefcase
     - identifier: podcast
       name: Podcast
       url: /podcast/
-      weight: 26
+      weight: 27
+      params:
+        icon: microphone
     - identifier: about
       name: About
       url: /about/
-      weight: 30
+      weight: -90
+      params:
+        icon: user
     - identifier: search
       name: Search
       url: /search/
       weight: 40
+      params:
+        icon: search
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 45
+      params:
+        icon: archive
+
+  social:
+    - identifier: email
+      name: Email
+      url: "mailto:giannis@gchrysogonou.gr"
+      params:
+        icon: mail
+    - identifier: instagram
+      name: Instagram
+      url: "https://instagram.com/gchrysogonou"
+      params:
+        icon: brand-instagram
+    - identifier: facebook
+      name: Facebook
+      url: "https://www.facebook.com/GiannisChrysogonou"
+      params:
+        icon: brand-facebook
+    - identifier: twitter
+      name: X
+      url: "https://twitter.com/gchrysogonou"
+      params:
+        icon: brand-x
+    - identifier: linkedin
+      name: LinkedIn
+      url: "https://linkedin.com/in/gchrysogonou"
+      params:
+        icon: brand-linkedin
+    - identifier: soundcloud
+      name: SoundCloud
+      url: "https://soundcloud.com/gchrysogonou"
+      params:
+        icon: brand-soundcloud
+    - identifier: spotify
+      name: Spotify
+      url: "https://open.spotify.com/user/gchrysogonou"
+      params:
+        icon: brand-spotify
 
 # Outputs for search
 outputs:
@@ -123,7 +177,23 @@ markup:
     codeFences: true
     guessSyntax: true
     lineNos: false
+    noClasses: false
     style: monokai
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+    startLevel: 2
+
+# Related content
+related:
+  includeNewer: true
+  threshold: 60
+  toLower: false
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 200

@@ -1,0 +1,177 @@
+/* Google Fonts - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+    --sys-font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+    --article-font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Social icons - smaller size */
+.menu-social svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+/* Homepage */
+.home-profile {
+    text-align: center;
+    padding: 2rem 0 1.5rem;
+    border-bottom: 1px solid var(--card-separator-color);
+    margin-bottom: 2rem;
+}
+
+.home-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.home-subtitle {
+    font-size: 1.1rem;
+    color: var(--body-text-color);
+    opacity: 0.7;
+}
+
+.home-content {
+    margin-top: 9rem;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--card-separator-color);
+    color: var(--body-text-color);
+}
+
+/* Playlists section */
+.playlists-section {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--card-separator-color);
+}
+
+.playlists-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--body-text-color);
+}
+
+.playlists-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: var(--body-text-color);
+    opacity: 0.6;
+    margin-bottom: 2rem;
+}
+
+.playlists-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.playlist-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-card h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    min-height: 2.4em;
+}
+
+.playlist-card iframe {
+    border-radius: 12px;
+}
+
+.playlist-desc {
+    font-size: 1.4rem;
+    color: var(--body-text-color);
+    opacity: 0.95;
+    margin-top: 0.8rem;
+    line-height: 1.5;
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 1024px) {
+    .playlists-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 600px) {
+    .playlists-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .playlists-title {
+        font-size: 1.5rem;
+    }
+}
+
+.home-posts .section-title {
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.view-all-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    color: var(--accent-color);
+}
+
+/* Category badges - custom orange */
+.article-category a {
+    background-color: #EF820C !important;
+    color: #fff !important;
+}
+
+/* Post content images */
+.article-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1.5rem auto;
+}
+
+@media (min-width: 768px) {
+    .article-content img {
+        max-width: 600px;
+    }
+}
+
+/* Podcast subscribe buttons */
+.podcast-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin: 1.5rem 0;
+}
+
+.podcast-buttons a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff !important;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+.podcast-buttons a:hover {
+    opacity: 0.85;
+}
+
+.podcast-buttons .btn-apple { background-color: #D56DFB; }
+.podcast-buttons .btn-spotify { background-color: #1DB954; }
+.podcast-buttons .btn-google { background-color: #4285F4; }
+.podcast-buttons .btn-pocketcasts { background-color: #F43E37; }
+.podcast-buttons .btn-castbox { background-color: #F55B23; }

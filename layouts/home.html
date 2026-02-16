@@ -1,0 +1,26 @@
+{{ define "main" }}
+    <!-- Custom content from _index.md -->
+    {{ with .Content }}
+        <section class="home-content">
+            {{ . }}
+        </section>
+    {{ end }}
+
+    <!-- Recent Posts -->
+    <section class="home-posts">
+        <h2 class="section-title">Recent Posts</h2>
+        <div class="article-list">
+            {{ $pages := where .Site.RegularPages "Section" "posts" }}
+            {{ range first 5 $pages }}
+                {{ partial "article-list/default" . }}
+            {{ end }}
+        </div>
+        <a href="/posts/" class="view-all-link">View all posts &rarr;</a>
+    </section>
+
+    {{- partial "footer/footer" . -}}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
