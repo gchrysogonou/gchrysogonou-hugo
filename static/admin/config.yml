@@ -5,7 +5,7 @@ backend:
   name: github
   repo: gchrysogonou/gchrysogonou-hugo
   branch: main
-  base_url: https://gchrysogonou-hugo.vercel.app
+  base_url: https://gchrysogonou.gr
   auth_endpoint: /api/auth
 
 # Media files
