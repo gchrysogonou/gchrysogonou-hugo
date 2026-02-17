@@ -175,3 +175,24 @@
 .podcast-buttons .btn-google { background-color: #4285F4; }
 .podcast-buttons .btn-pocketcasts { background-color: #F43E37; }
 .podcast-buttons .btn-castbox { background-color: #F55B23; }
+
+/* Columns grid shortcode */
+.columns-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.columns-grid .column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .columns-grid {
+        grid-template-columns: 1fr;
+    }
+}

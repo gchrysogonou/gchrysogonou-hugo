@@ -1,0 +1,6 @@
+<div class="columns-grid">
+  {{ $parts := split .Inner "|||" }}
+  {{ range $parts }}
+    <div class="column">{{ . | markdownify }}</div>
+  {{ end }}
+</div>
