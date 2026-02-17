@@ -1,7 +1,7 @@
 ---
 title: Stop skipping tracks
 date: 2026-02-17
-draft: true
+draft: false
 description:
 tags:
   - Σκέψεις
