@@ -1,0 +1,44 @@
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Giannis Chrysogonou",
+  "url": {{ .Site.BaseURL }},
+  "jobTitle": "Voice-Over Artist, Sound Designer & Radio DJ",
+  "sameAs": [
+    "https://instagram.com/gchrysogonou",
+    "https://www.facebook.com/GiannisChrysogonou",
+    "https://twitter.com/gchrysogonou",
+    "https://linkedin.com/in/gchrysogonou",
+    "https://soundcloud.com/gchrysogonou",
+    "https://open.spotify.com/user/gchrysogonou"
+  ]
+}
+</script>
+{{- else if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title }},
+  "url": {{ .Permalink }},
+  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
+  {{- with .Lastmod }}
+  "dateModified": {{ .Format "2006-01-02T15:04:05Z07:00" }},
+  {{- end }}
+  "author": {
+    "@type": "Person",
+    "name": "Giannis Chrysogonou",
+    "url": {{ $.Site.BaseURL }}
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Giannis Chrysogonou"
+  }
+  {{- with .Description }},
+  "description": {{ . }}
+  {{- end }}
+}
+</script>
+{{- end }}

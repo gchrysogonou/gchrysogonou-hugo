@@ -80,6 +80,7 @@ params:
   opengraph:
     twitter:
       card: summary_large_image
+      site: "gchrysogonou"
 
 # Menu
 menu:

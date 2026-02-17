@@ -1,5 +1,6 @@
 ---
 title: Home
+description: "Ο προσωπικός χώρος του Γιάννη Χρυσογόνου — Voice-Over Artist, Sound Designer & Radio DJ. Μουσική, σκέψεις, φωτογραφία."
 ---
 
 {{% center %}}
