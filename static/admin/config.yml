@@ -21,6 +21,9 @@ collections:
   - name: "posts"
     label: "Blog Posts"
     folder: "content/posts"
+    path: "{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
     create: true
     slug: "{{slug}}"
     fields:
