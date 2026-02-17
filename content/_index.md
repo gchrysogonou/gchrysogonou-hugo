@@ -23,7 +23,7 @@ title: Home
 <div class="playlists-grid">
 
 <div class="playlist-card">
-<h3>[Your Weekly Mixtape](https://open.spotify.com/playlist/4Fp3TMZbmkgAV7LCgezZ28?si=7fb416141da64698)</h3>
+<h3>Your Weekly Mixtape</h3>
 
 {{< spotify type="playlist" id="4Fp3TMZbmkgAV7LCgezZ28?si=511d1b666ec84345" height="352" >}}
 
@@ -31,7 +31,7 @@ title: Home
 </div>
 
 <div class="playlist-card">
-<h3>[Best 92.6 Weekends](https://open.spotify.com/playlist/1dqashpuhThrrd3EuaEDXC?si=73dd7dccb04b4f49)</h3>
+<h3>Best 92.6 Weekends</h3>
 
 {{< spotify type="playlist" id="1dqashpuhThrrd3EuaEDXC?si=b3430688e19640bf" height="352" >}}
 
@@ -39,7 +39,7 @@ title: Home
 </div>
 
 <div class="playlist-card">
-<h3>[Be Abstract](https://open.spotify.com/playlist/2cAr8Eozcz73BdLgXZEF95?si=6a1268ef345a480a)</h3>
+<h3>Be Abstract</h3>
 
 {{< spotify type="playlist" id="2cAr8Eozcz73BdLgXZEF95?si=f36af5fc37184e0a" height="352" >}}
 
@@ -47,7 +47,7 @@ title: Home
 </div>
 
 <div class="playlist-card">
-<h3>[In My Headphones](https://open.spotify.com/playlist/0Cz2Qr6nxTHMsdUvtqD1wo?si=69e3f8b0cfd041cf)</h3>
+<h3>In My Headphones</h3>
 
 {{< spotify type="playlist" id="0Cz2Qr6nxTHMsdUvtqD1wo?si=d9a066c12d854508" height="352" >}}
 
