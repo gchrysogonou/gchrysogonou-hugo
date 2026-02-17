@@ -22,6 +22,7 @@ collections:
     label: "Blog Posts"
     folder: "content/posts"
     path: "{{slug}}/index"
+    extension: "md"
     media_folder: ""
     public_folder: ""
     create: true
