@@ -1,0 +1,59 @@
+{{ define "main" }}
+    <div class="not-found-card">
+        <h1 class="article-title">Dead Air.</h1>
+        <h2 class="article-subtitle">Η σελίδα που ψάχνεις δεν εκπέμπει πια — ή δεν υπήρξε ποτέ.</h2>
+        <div style="margin-top: var(--card-padding); display: flex; gap: 1rem; flex-wrap: wrap;">
+            <a href="/" style="display: inline-block; padding: 0.5rem 1.25rem; background: var(--accent-color); color: #fff; border-radius: var(--card-border-radius); text-decoration: none; font-weight: 600;">← Αρχική</a>
+            <a href="/posts/" style="display: inline-block; padding: 0.5rem 1.25rem; background: var(--card-background); color: var(--body-text-color); border: 1px solid var(--card-separator-color); border-radius: var(--card-border-radius); text-decoration: none;">Blog</a>
+            <a href="/podcast/" style="display: inline-block; padding: 0.5rem 1.25rem; background: var(--card-background); color: var(--body-text-color); border: 1px solid var(--card-separator-color); border-radius: var(--card-border-radius); text-decoration: none;">Podcast</a>
+            <a href="/work/" style="display: inline-block; padding: 0.5rem 1.25rem; background: var(--card-background); color: var(--body-text-color); border: 1px solid var(--card-separator-color); border-radius: var(--card-border-radius); text-decoration: none;">Work</a>
+        </div>
+    </div>
+
+    {{- $query := first 1 (where .Site.Pages "Layout" "==" "search") -}}
+    {{- $searchPage := index $query 0 -}}
+    {{- with $searchPage -}}
+        <form action="{{ $searchPage.RelPermalink }}" class="search-form widget" {{ with .OutputFormats.Get "json" -}}data-json="{{ .RelPermalink }}" {{- end }}>
+            <p>
+                <label>{{ T "search.title" }}</label>
+                <input id="searchInput" name="keyword" required placeholder="{{ T `search.placeholder` }}" />
+                <button title="{{ T `search.title` }}">
+                    {{ partial "helper/icon" "search" }}
+                </button>
+            </p>
+        </form>
+
+        <div class="search-result">
+            <h3 class="search-result--title section-title"></h3>
+            <div class="search-result--list article-list--compact"></div>
+        </div>
+
+        <script>
+            window.searchResultTitleTemplate = "{{ T `search.resultTitle` }}"
+        </script>
+
+        {{- $opts := dict "minify" hugo.IsProduction "JSXFactory" "createElement" -}}
+        {{- $searchScript := resources.Get "ts/search.tsx" | js.Build $opts -}}
+        <script type="text/javascript" src="{{ $searchScript.RelPermalink }}" defer></script>
+
+        <script>
+            const wrongUrl = new URL(window.location.href);
+            const searchKeyword = decodeURIComponent(wrongUrl.pathname).split(/[/|-]/).join(' ').trim();
+            document.getElementById('searchInput').setAttribute('value', searchKeyword);
+        </script>
+    {{- end -}}
+
+    {{- $posts := where .Site.RegularPages "Section" "posts" -}}
+    {{- if $posts -}}
+    <section class="home-posts">
+        <h2 class="section-title">Τελευταίες αναρτήσεις</h2>
+        <div class="article-list article-list--compact">
+            {{ range first 3 $posts }}
+                {{ partial "article-list/compact" . }}
+            {{ end }}
+        </div>
+    </section>
+    {{- end -}}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
