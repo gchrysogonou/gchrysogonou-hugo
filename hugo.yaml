@@ -129,26 +129,16 @@ menu:
         icon: archive
 
   social:
+    - identifier: whatsapp
+      name: WhatsApp
+      url: "https://wa.me/306939572194"
+      params:
+        icon: brand-whatsapp
     - identifier: email
       name: Email
-      url: "mailto:giannis@gchrysogonou.gr"
+      url: "mailto:hello@gchrysogonou.gr"
       params:
         icon: mail
-    - identifier: instagram
-      name: Instagram
-      url: "https://instagram.com/gchrysogonou"
-      params:
-        icon: brand-instagram
-    - identifier: facebook
-      name: Facebook
-      url: "https://www.facebook.com/GiannisChrysogonou"
-      params:
-        icon: brand-facebook
-    - identifier: twitter
-      name: X
-      url: "https://twitter.com/gchrysogonou"
-      params:
-        icon: brand-x
     - identifier: linkedin
       name: LinkedIn
       url: "https://linkedin.com/in/gchrysogonou"
@@ -164,11 +154,21 @@ menu:
       url: "https://open.spotify.com/user/gchrysogonou"
       params:
         icon: brand-spotify
-    - identifier: whatsapp
-      name: WhatsApp
-      url: "https://wa.me/306939572194"
+    - identifier: instagram
+      name: Instagram
+      url: "https://instagram.com/gchrysogonou"
       params:
-        icon: brand-whatsapp
+        icon: brand-instagram
+    - identifier: facebook
+      name: Facebook
+      url: "https://www.facebook.com/GiannisChrysogonou"
+      params:
+        icon: brand-facebook
+    - identifier: twitter
+      name: X
+      url: "https://twitter.com/gchrysogonou"
+      params:
+        icon: brand-x
 
 # Outputs for search
 outputs:
