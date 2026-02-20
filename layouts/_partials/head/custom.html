@@ -1,44 +1,48 @@
-{{- if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Giannis Chrysogonou",
-  "url": {{ .Site.BaseURL }},
-  "jobTitle": "Voice-Over Artist, Sound Designer & Radio DJ",
-  "sameAs": [
-    "https://instagram.com/gchrysogonou",
-    "https://www.facebook.com/GiannisChrysogonou",
-    "https://twitter.com/gchrysogonou",
-    "https://linkedin.com/in/gchrysogonou",
-    "https://soundcloud.com/gchrysogonou",
+{{- if .IsHome -}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" "Giannis Chrysogonou"
+  "url" "https://gchrysogonou.gr"
+  "jobTitle" "Voice-Over Artist, Sound Designer & Radio DJ"
+  "sameAs" (slice
+    "https://gchrysogonou.gr"
+    "https://instagram.com/gchrysogonou"
+    "https://www.facebook.com/GiannisChrysogonou"
+    "https://twitter.com/gchrysogonou"
+    "https://linkedin.com/in/gchrysogonou"
+    "https://soundcloud.com/gchrysogonou"
     "https://open.spotify.com/user/gchrysogonou"
-  ]
-}
-</script>
-{{- else if .IsPage }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": {{ .Title }},
-  "url": {{ .Permalink }},
-  "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" }},
-  {{- with .Lastmod }}
-  "dateModified": {{ .Format "2006-01-02T15:04:05Z07:00" }},
-  {{- end }}
-  "author": {
-    "@type": "Person",
-    "name": "Giannis Chrysogonou",
-    "url": {{ $.Site.BaseURL }}
-  },
-  "publisher": {
-    "@type": "Person",
-    "name": "Giannis Chrysogonou"
-  }
-  {{- with .Description }},
-  "description": {{ . }}
-  {{- end }}
-}
-</script>
-{{- end }}
+  )
+-}}
+{{ printf `<script type="application/ld+json">%s</script>` ($person | jsonify) | safeHTML }}
+{{- else if .IsPage -}}
+{{- $description := .Summary | plainify | truncate 200 -}}
+{{- if .Description }}{{- $description = .Description -}}{{ end -}}
+{{- $image := absURL "/img/author.jpg" -}}
+{{- with .Params.image -}}
+  {{- $res := $.Resources.GetMatch . -}}
+  {{- if $res }}{{- $image = $res.Permalink -}}{{ end -}}
+{{- end -}}
+{{- $article := dict
+  "@context" "https://schema.org"
+  "@type" "Article"
+  "headline" .Title
+  "url" .Permalink
+  "datePublished" (.Date.Format "2006-01-02T15:04:05Z07:00")
+  "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
+  "description" $description
+  "image" $image
+  "author" (dict
+    "@type" "Person"
+    "name" "Giannis Chrysogonou"
+    "url" "https://gchrysogonou.gr"
+  )
+  "publisher" (dict
+    "@type" "Person"
+    "name" "Giannis Chrysogonou"
+    "url" "https://gchrysogonou.gr"
+  )
+-}}
+{{ printf `<script type="application/ld+json">%s</script>` ($article | jsonify) | safeHTML }}
+{{- end -}}
