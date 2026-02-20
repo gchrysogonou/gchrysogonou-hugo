@@ -129,18 +129,18 @@ menu:
         icon: archive
 
   social:
-    - identifier: whatsapp
-      name: WhatsApp
-      url: "https://wa.me/306939572194"
-      weight: 1
-      params:
-        icon: brand-whatsapp
     - identifier: email
       name: Email
       url: "mailto:hello@gchrysogonou.gr"
-      weight: 2
+      weight: 1
       params:
         icon: mail
+    - identifier: whatsapp
+      name: WhatsApp
+      url: "https://wa.me/306939572194"
+      weight: 2
+      params:
+        icon: brand-whatsapp
     - identifier: linkedin
       name: LinkedIn
       url: "https://linkedin.com/in/gchrysogonou"
