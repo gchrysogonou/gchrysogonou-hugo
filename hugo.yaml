@@ -164,6 +164,11 @@ menu:
       url: "https://open.spotify.com/user/gchrysogonou"
       params:
         icon: brand-spotify
+    - identifier: whatsapp
+      name: WhatsApp
+      url: "https://wa.me/306939572194"
+      params:
+        icon: brand-whatsapp
 
 # Outputs for search
 outputs:
