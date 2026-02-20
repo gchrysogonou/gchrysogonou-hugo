@@ -132,41 +132,49 @@ menu:
     - identifier: whatsapp
       name: WhatsApp
       url: "https://wa.me/306939572194"
+      weight: 1
       params:
         icon: brand-whatsapp
     - identifier: email
       name: Email
       url: "mailto:hello@gchrysogonou.gr"
+      weight: 2
       params:
         icon: mail
     - identifier: linkedin
       name: LinkedIn
       url: "https://linkedin.com/in/gchrysogonou"
+      weight: 3
       params:
         icon: brand-linkedin
     - identifier: soundcloud
       name: SoundCloud
       url: "https://soundcloud.com/gchrysogonou"
+      weight: 4
       params:
         icon: brand-soundcloud
     - identifier: spotify
       name: Spotify
       url: "https://open.spotify.com/user/gchrysogonou"
+      weight: 5
       params:
         icon: brand-spotify
     - identifier: instagram
       name: Instagram
       url: "https://instagram.com/gchrysogonou"
+      weight: 6
       params:
         icon: brand-instagram
     - identifier: facebook
       name: Facebook
       url: "https://www.facebook.com/GiannisChrysogonou"
+      weight: 7
       params:
         icon: brand-facebook
     - identifier: twitter
       name: X
       url: "https://twitter.com/gchrysogonou"
+      weight: 8
       params:
         icon: brand-x
 
