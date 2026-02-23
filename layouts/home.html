@@ -1,9 +1,24 @@
 {{ define "main" }}
-    <!-- Custom content from _index.md -->
+    <!-- Intro text from _index.md -->
     {{ with .Content }}
         <section class="home-content">
             {{ . }}
         </section>
+    {{ end }}
+
+    <!-- Favorite Posts -->
+    {{ with .Params.favorite_posts }}
+    <section class="home-posts">
+        <h2 class="section-title">Favorite Posts</h2>
+        <div class="article-list">
+            {{ range . }}
+                {{ $post := site.GetPage . }}
+                {{ if $post }}
+                    {{ partial "article-list/default" $post }}
+                {{ end }}
+            {{ end }}
+        </div>
+    </section>
     {{ end }}
 
     <!-- Recent Posts -->
@@ -11,11 +26,46 @@
         <h2 class="section-title">Recent Posts</h2>
         <div class="article-list">
             {{ $pages := where .Site.RegularPages "Section" "posts" }}
-            {{ range first 5 $pages }}
+            {{ range first 3 $pages }}
                 {{ partial "article-list/default" . }}
             {{ end }}
         </div>
         <a href="/posts/" class="view-all-link">View all posts &rarr;</a>
+    </section>
+
+    <!-- Spotify Playlists -->
+    <section class="home-content">
+        <div class="playlists-section">
+            <h2 class="playlists-title">Spotify Playlists</h2>
+            <p class="playlists-subtitle">Ανακάλυψε τις λίστες μου στο Spotify.</p>
+            <div class="playlists-grid">
+
+                <div class="playlist-card">
+                    <h3>Your Weekly Mixtape</h3>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4Fp3TMZbmkgAV7LCgezZ28?si=511d1b666ec84345&utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <p class="playlist-desc">Μια playlist με κομμάτια που ακούω μέσα στην εβδομάδα και ανανεώνεται συνήθως κάθε Δευτέρα.</p>
+                </div>
+
+                <div class="playlist-card">
+                    <h3>Best 92.6 Weekends</h3>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1dqashpuhThrrd3EuaEDXC?si=b3430688e19640bf&utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <p class="playlist-desc">Playlist με μερικά από τα αγαπημένα μου κομμάτια που ακούστηκαν από τις εκπομπές μου στον Best 92.6</p>
+                </div>
+
+                <div class="playlist-card">
+                    <h3>Be Abstract</h3>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2cAr8Eozcz73BdLgXZEF95?si=f36af5fc37184e0a&utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <p class="playlist-desc">Abstract electronic playlist.</p>
+                </div>
+
+                <div class="playlist-card">
+                    <h3>In My Headphones</h3>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0Cz2Qr6nxTHMsdUvtqD1wo?si=d9a066c12d854508&utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <p class="playlist-desc">Τι παίζει τώρα τελευταία στα ακουστικά μου.</p>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     {{- partial "footer/footer" . -}}
