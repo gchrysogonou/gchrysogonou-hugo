@@ -21,14 +21,15 @@ collections:
   - name: "posts"
     label: "Blog Posts"
     folder: "content/posts"
-    path: "{{slug}}/index"
+    path: "{{fields.slug}}/index"
     extension: "md"
     media_folder: ""
     public_folder: ""
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "Latin characters only, lowercase, hyphens (e.g. my-post-title)" }
       - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
       - { label: "Draft", name: "draft", widget: "boolean", default: false }
       - { label: "Description", name: "description", widget: "text", required: false }

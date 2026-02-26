@@ -86,6 +86,7 @@ await tp.file.rename("index");
 -%>
 ---
 title: "<% title %>"
+slug: "<% slug %>"
 date: <% date %>
 draft: true
 categories: ["<% category %>"]
