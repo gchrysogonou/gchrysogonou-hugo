@@ -1,5 +1,6 @@
 ---
 title: "Έχεις σκεφτεί τι θα συνέβαινε αν απλώς ξεκινούσες;"
+slug: "echeis-skeftei-ti-tha-synevaine-an-aplos"
 date: 2020-12-23
 categories: 
   - "Σκέψεις"

@@ -1,5 +1,6 @@
 ---
 title: "​Who decides how long a second is? - John Kitching"
+slug: "who-decides-how-long-a-second-is-john-kitching"
 date: 2021-03-22
 categories: 
   - "Σκέψεις"

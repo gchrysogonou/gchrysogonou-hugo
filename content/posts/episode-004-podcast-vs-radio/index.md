@@ -1,5 +1,6 @@
 ---
 title: "Episode 004: Podcast vs Radio"
+slug: "episode-004-podcast-vs-radio"
 date: 2021-04-14
 categories: 
   - "Podcast"

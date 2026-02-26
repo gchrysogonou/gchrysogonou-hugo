@@ -1,5 +1,6 @@
 ---
 title: "Episode 005: Video Games"
+slug: "episode-005-video-games"
 date: 2021-04-20
 categories: 
   - "Podcast"

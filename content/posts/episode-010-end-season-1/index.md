@@ -1,5 +1,6 @@
 ---
 title: "Episode 011: Τέλος της Season1"
+slug: "episode-010-end-season-1"
 date: 2021-07-10
 categories: 
   - "Podcast"

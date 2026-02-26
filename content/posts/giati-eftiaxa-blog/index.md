@@ -1,5 +1,6 @@
 ---
 title: "Γιατί έφτιαξα blog"
+slug: "giati-eftiaxa-blog"
 date: 2020-12-13
 categories: 
   - "Σκέψεις"

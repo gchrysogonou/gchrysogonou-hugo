@@ -1,5 +1,6 @@
 ---
 title: Δημιουργικότητα
+slug: "dimiourgikotita"
 date: 2020-12-15
 categories:
   - Σκέψεις

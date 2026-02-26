@@ -1,5 +1,6 @@
 ---
 title: "Blessings"
+slug: "blessings"
 date: 2021-03-22
 categories: 
   - "Σκέψεις"

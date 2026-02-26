@@ -1,5 +1,6 @@
 ---
 title: Κανείς δεν ακούει
+slug: "kaneis-den-akouei"
 date: 2021-02-11
 categories:
   - Σκέψεις

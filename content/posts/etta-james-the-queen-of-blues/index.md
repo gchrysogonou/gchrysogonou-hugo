@@ -1,5 +1,6 @@
 ---
 title: Etta James, the queen of blues
+slug: "etta-james-the-queen-of-blues"
 date: 2021-01-29
 categories:
   - Μουσική

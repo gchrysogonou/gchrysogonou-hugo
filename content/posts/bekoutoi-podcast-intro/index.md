@@ -1,5 +1,6 @@
 ---
 title: "Be Κουτοί - Podcast Intro"
+slug: "bekoutoi-podcast-intro"
 date: 2021-03-20
 categories:
   - Podcast

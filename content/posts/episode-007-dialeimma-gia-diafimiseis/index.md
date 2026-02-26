@@ -1,5 +1,6 @@
 ---
 title: "Episode 007: Διάλειμμα για διαφημίσεις"
+slug: "episode-007-dialeimma-gia-diafimiseis"
 date: 2021-05-25
 categories: 
   - "Podcast"

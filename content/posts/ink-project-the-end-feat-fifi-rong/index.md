@@ -1,5 +1,6 @@
 ---
 title: Ink Project - The End feat. Fifi Rong
+slug: "ink-project-the-end-feat-fifi-rong"
 date: 2020-12-13
 categories:
   - Μουσική

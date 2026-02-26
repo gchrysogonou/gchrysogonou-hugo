@@ -1,5 +1,6 @@
 ---
 title: Best 92.6 - Giannis Chrysogonou (05-09-2021)
+slug: "best-92-6-giannis-chrysogonou-05-09-2021"
 date: 2021-09-20
 categories:
   - Μουσική

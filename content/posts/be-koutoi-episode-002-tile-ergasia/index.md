@@ -1,5 +1,6 @@
 ---
 title: "Episode 002: Τηλε-εργασία και χαρά"
+slug: "be-koutoi-episode-002-tile-ergasia"
 date: 2021-03-27
 categories: 
   - "Podcast"

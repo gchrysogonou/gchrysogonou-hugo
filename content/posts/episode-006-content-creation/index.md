@@ -1,5 +1,6 @@
 ---
 title: "Episode 006: Content Creation"
+slug: "episode-006-content-creation"
 date: 2021-04-24
 categories: 
   - "Podcast"

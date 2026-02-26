@@ -1,5 +1,6 @@
 ---
 title: Δύο πρωτοπόρες γυναίκες στην ηλεκτρονική μουσική
+slug: "dyo-protopores-gynaikes-stin-ilektro"
 date: 2021-03-13
 categories:
   - Μουσική

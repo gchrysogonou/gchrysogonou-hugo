@@ -1,5 +1,6 @@
 ---
 title: "07 Keyfound Lockast Edition - Giannis Chrysogonou"
+slug: "07-keyfound-lockast-edition-giannis-chrysogonou"
 date: 2020-12-14
 categories:
   - Μουσική

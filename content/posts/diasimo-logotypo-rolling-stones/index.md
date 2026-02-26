@@ -1,5 +1,6 @@
 ---
 title: "Η ιστορία πίσω από το διάσημο λογότυπο των Rolling Stones"
+slug: "diasimo-logotypo-rolling-stones"
 date: 2021-04-01
 categories: 
   - "Μουσική"

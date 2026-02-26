@@ -1,5 +1,6 @@
 ---
 title: "Τα 4 στάδια της αναβλητικότητας"
+slug: "ta-4-stadia-tis-anavlitikotitas"
 date: 2021-01-23
 categories: 
   - "Σκέψεις"

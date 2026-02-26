@@ -1,5 +1,6 @@
 ---
 title: Το 2020 μέσα από μία playlist
+slug: "to-2020-mesa-apo-mia-playlist"
 date: 2020-12-30
 categories:
   - Μουσική

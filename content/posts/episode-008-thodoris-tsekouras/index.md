@@ -1,5 +1,6 @@
 ---
 title: "Episode 008: Θοδωρής Τσεκούρας"
+slug: "episode-008-thodoris-tsekouras"
 date: 2021-05-25
 categories: 
   - "Podcast"

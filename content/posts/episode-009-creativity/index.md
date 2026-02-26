@@ -1,5 +1,6 @@
 ---
 title: "Episode 009: Δημιουργικότητα"
+slug: "episode-009-creativity"
 date: 2021-06-05
 categories: 
   - "Podcast"

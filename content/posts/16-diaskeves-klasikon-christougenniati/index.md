@@ -1,5 +1,6 @@
 ---
 title: 15+1 διασκευές κλασικών χριστουγεννιάτικων κομματιών
+slug: "16-diaskeves-klasikon-christougenniati"
 date: 2020-12-30
 categories:
   - Μουσική

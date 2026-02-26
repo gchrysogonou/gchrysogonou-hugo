@@ -1,5 +1,6 @@
 ---
 title: Stop skipping tracks
+slug: "stop-skipping-tracks"
 date: 2026-02-17
 draft: false
 description:

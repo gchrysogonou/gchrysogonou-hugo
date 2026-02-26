@@ -1,5 +1,6 @@
 ---
 title: "Free Sample Library: Ocean Swift – 20th Century Public Domain Speeches"
+slug: "free-sample-library-ocean-swift-20th-century-public-domain-speeches"
 date: 2025-02-25
 categories:
   - Audio

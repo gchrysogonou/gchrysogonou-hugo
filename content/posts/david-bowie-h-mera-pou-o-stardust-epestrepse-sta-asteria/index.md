@@ -1,5 +1,6 @@
 ---
 title: "David Bowie: H μέρα που o Stardust επέστρεψε στα αστέρια"
+slug: "david-bowie-h-mera-pou-o-stardust-epestrepse-sta-asteria"
 date: 2021-01-12
 categories: 
   - "Μουσική"

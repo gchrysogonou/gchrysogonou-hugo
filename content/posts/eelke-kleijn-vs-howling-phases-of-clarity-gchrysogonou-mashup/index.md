@@ -1,5 +1,6 @@
 ---
 title: Eelke Kleijn vs Howling - Phases of clarity (Gchrysogonou Mashup)
+slug: "eelke-kleijn-vs-howling-phases-of-clarity-gchrysogonou-mashup"
 date: 2021-02-17
 categories:
   - Μουσική

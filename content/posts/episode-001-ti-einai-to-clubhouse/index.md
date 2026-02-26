@@ -1,5 +1,6 @@
 ---
 title: "Episode 001: Τι είναι το Clubhouse;"
+slug: "episode-001-ti-einai-to-clubhouse"
 date: 2021-03-20
 categories: 
   - "Podcast"

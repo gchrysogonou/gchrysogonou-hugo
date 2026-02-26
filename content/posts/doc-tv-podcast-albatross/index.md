@@ -1,5 +1,6 @@
 ---
 title: "Doc Tv Podcast - Γιάννης Χρυσογόνου: Albatross"
+slug: "doc-tv-podcast-albatross"
 date: 2021-05-11
 categories:
   - Μουσική

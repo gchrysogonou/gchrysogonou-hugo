@@ -1,5 +1,6 @@
 ---
 title: "Ο φανταχτερός και θορυβώδης πρίγκιπας"
+slug: "o-fantachteros-kai-thoryvodis-prigkipa"
 date: 2021-04-22
 categories: 
   - "Μουσική"

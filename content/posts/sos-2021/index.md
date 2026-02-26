@@ -1,5 +1,6 @@
 ---
 title: SOS 2021
+slug: "sos-2021"
 date: 2020-12-23
 categories:
   - Social Media

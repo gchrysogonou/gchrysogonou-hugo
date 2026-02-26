@@ -1,5 +1,6 @@
 ---
 title: Soundtrack Of Your Day
+slug: "soundtrack-of-your-day"
 date: 2024-10-08
 categories:
   - Μουσική

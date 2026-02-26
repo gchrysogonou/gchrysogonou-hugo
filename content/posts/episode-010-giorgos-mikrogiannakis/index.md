@@ -1,5 +1,6 @@
 ---
 title: "Episode 010: Γιώργος Μικρογιαννάκης"
+slug: "episode-010-giorgos-mikrogiannakis"
 date: 2021-07-10
 categories: 
   - "Podcast"

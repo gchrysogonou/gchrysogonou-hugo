@@ -1,5 +1,6 @@
 ---
 title: Η ιστορική συναυλία των Pink Floyd - The Wall
+slug: "i-istoriki-synavlia-ton-pink-floyd-the-wall"
 date: 2021-02-11
 categories:
   - Μουσική
