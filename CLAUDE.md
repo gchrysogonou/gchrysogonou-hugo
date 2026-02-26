@@ -73,6 +73,8 @@ content/
 Ρωτάει: Τίτλος → Category (dropdown) → Tags (multi-select) → Περιγραφή
 Δημιουργεί: `content/posts/{slug}/index.md`
 
+**Σημαντικό για slugs:** Το `hugo.yaml` χρησιμοποιεί `permalinks: posts: /posts/:slug/`. Το `:slug` κάνει fallback στο **title** (όχι folder name) αν δεν υπάρχει `slug:` στο frontmatter — δίνει Greek URLs. Κάθε post **πρέπει** να έχει `slug:` στο frontmatter (ήδη περιλαμβάνεται στο Obsidian template και στο Sveltia CMS).
+
 ## Categories
 
 | Category | Posts |
