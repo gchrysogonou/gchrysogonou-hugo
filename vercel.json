@@ -3,5 +3,127 @@
     "env": {
       "HUGO_VERSION": "0.155.3"
     }
-  }
+  },
+  "redirects": [
+    {
+      "source": "/posts/%CE%AD%CF%87%CE%B5%CE%B9%CF%82-%CF%83%CE%BA%CE%B5%CF%86%CF%84%CE%B5%CE%AF-%CF%84%CE%B9-%CE%B8%CE%B1-%CF%83%CF%85%CE%BD%CE%AD%CE%B2%CE%B1%CE%B9%CE%BD%CE%B5-%CE%B1%CE%BD-%CE%B1%CF%80%CE%BB%CF%8E%CF%82-%CE%BE%CE%B5%CE%BA%CE%B9%CE%BD%CE%BF%CF%8D%CF%83%CE%B5%CF%82/",
+      "destination": "/posts/echeis-skeftei-ti-tha-synevaine-an-aplos/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CE%B3%CE%B9%CE%B1%CF%84%CE%AF-%CE%AD%CF%86%CF%84%CE%B9%CE%B1%CE%BE%CE%B1-blog/",
+      "destination": "/posts/giati-eftiaxa-blog/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CE%B4%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1/",
+      "destination": "/posts/dimiourgikotita/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CE%B4%CF%8D%CE%BF-%CF%80%CF%81%CF%89%CF%84%CE%BF%CF%80%CF%8C%CF%81%CE%B5%CF%82-%CE%B3%CF%85%CE%BD%CE%B1%CE%AF%CE%BA%CE%B5%CF%82-%CF%83%CF%84%CE%B7%CE%BD-%CE%B7%CE%BB%CE%B5%CE%BA%CF%84%CF%81%CE%BF%CE%BD%CE%B9%CE%BA%CE%AE-%CE%BC%CE%BF%CF%85%CF%83%CE%B9%CE%BA%CE%AE/",
+      "destination": "/posts/dyo-protopores-gynaikes-stin-ilektro/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CE%B7-%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B1-%CF%80%CE%AF%CF%83%CF%89-%CE%B1%CF%80%CF%8C-%CF%84%CE%BF-%CE%B4%CE%B9%CE%AC%CF%83%CE%B7%CE%BC%CE%BF-%CE%BB%CE%BF%CE%B3%CF%8C%CF%84%CF%85%CF%80%CE%BF-%CF%84%CF%89%CE%BD-rolling-stones/",
+      "destination": "/posts/diasimo-logotypo-rolling-stones/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CE%B7-%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CE%AE-%CF%83%CF%85%CE%BD%CE%B1%CF%85%CE%BB%CE%AF%CE%B1-%CF%84%CF%89%CE%BD-pink-floyd-the-wall/",
+      "destination": "/posts/i-istoriki-synavlia-ton-pink-floyd-the-wall/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CE%BA%CE%B1%CE%BD%CE%B5%CE%AF%CF%82-%CE%B4%CE%B5%CE%BD-%CE%B1%CE%BA%CE%BF%CF%8D%CE%B5%CE%B9/",
+      "destination": "/posts/kaneis-den-akouei/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CE%BF-%CF%86%CE%B1%CE%BD%CF%84%CE%B1%CF%87%CF%84%CE%B5%CF%81%CF%8C%CF%82-%CE%BA%CE%B1%CE%B9-%CE%B8%CE%BF%CF%81%CF%85%CE%B2%CF%8E%CE%B4%CE%B7%CF%82-%CF%80%CF%81%CE%AF%CE%B3%CE%BA%CE%B9%CF%80%CE%B1%CF%82/",
+      "destination": "/posts/o-fantachteros-kai-thoryvodis-prigkipa/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CF%84%CE%B1-4-%CF%83%CF%84%CE%AC%CE%B4%CE%B9%CE%B1-%CF%84%CE%B7%CF%82-%CE%B1%CE%BD%CE%B1%CE%B2%CE%BB%CE%B7%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1%CF%82/",
+      "destination": "/posts/ta-4-stadia-tis-anavlitikotitas/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/%CF%84%CE%BF-2020-%CE%BC%CE%AD%CF%83%CE%B1-%CE%B1%CF%80%CF%8C-%CE%BC%CE%AF%CE%B1-playlist/",
+      "destination": "/posts/to-2020-mesa-apo-mia-playlist/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/15-1-%CE%B4%CE%B9%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%AD%CF%82-%CE%BA%CE%BB%CE%B1%CF%83%CE%B9%CE%BA%CF%8E%CE%BD-%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%85%CE%B3%CE%B5%CE%BD%CE%BD%CE%B9%CE%AC%CF%84%CE%B9%CE%BA%CF%89%CE%BD-%CE%BA%CE%BF%CE%BC%CE%BC%CE%B1%CF%84%CE%B9%CF%8E%CE%BD/",
+      "destination": "/posts/16-diaskeves-klasikon-christougenniati/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/be-%CE%BA%CE%BF%CF%85%CF%84%CE%BF%CE%AF-podcast-intro/",
+      "destination": "/posts/bekoutoi-podcast-intro/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/best-92.6-giannis-chrysogonou-05-09-2021/",
+      "destination": "/posts/best-92-6-giannis-chrysogonou-05-09-2021/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/david-bowie-h-%CE%BC%CE%AD%CF%81%CE%B1-%CF%80%CE%BF%CF%85-o-stardust-%CE%B5%CF%80%CE%AD%CF%83%CF%84%CF%81%CE%B5%CF%88%CE%B5-%CF%83%CF%84%CE%B1-%CE%B1%CF%83%CF%84%CE%AD%CF%81%CE%B9%CE%B1/",
+      "destination": "/posts/david-bowie-h-mera-pou-o-stardust-epestrepse-sta-asteria/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/doc-tv-podcast-%CE%B3%CE%B9%CE%AC%CE%BD%CE%BD%CE%B7%CF%82-%CF%87%CF%81%CF%85%CF%83%CE%BF%CE%B3%CF%8C%CE%BD%CE%BF%CF%85-albatross/",
+      "destination": "/posts/doc-tv-podcast-albatross/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-001-%CF%84%CE%B9-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%84%CE%BF-clubhouse/",
+      "destination": "/posts/episode-001-ti-einai-to-clubhouse/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-002-%CF%84%CE%B7%CE%BB%CE%B5-%CE%B5%CF%81%CE%B3%CE%B1%CF%83%CE%AF%CE%B1-%CE%BA%CE%B1%CE%B9-%CF%87%CE%B1%CF%81%CE%AC/",
+      "destination": "/posts/be-koutoi-episode-002-tile-ergasia/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-003-%CE%B1%CF%80%CE%BB%CE%B9%CE%BA%CE%B1%CE%B8%CE%B9%CF%8C%CE%BD%CE%B5%CF%82-%CF%86%CE%B1%CE%B2%CE%BF%CF%81%CE%AF%CF%84%CE%B1%CF%82/",
+      "destination": "/posts/be-koutoi-episode-003-favorite-apps/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-007-%CE%B4%CE%B9%CE%AC%CE%BB%CE%B5%CE%B9%CE%BC%CE%BC%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%B4%CE%B9%CE%B1%CF%86%CE%B7%CE%BC%CE%AF%CF%83%CE%B5%CE%B9%CF%82/",
+      "destination": "/posts/episode-007-dialeimma-gia-diafimiseis/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-008-%CE%B8%CE%BF%CE%B4%CF%89%CF%81%CE%AE%CF%82-%CF%84%CF%83%CE%B5%CE%BA%CE%BF%CF%8D%CF%81%CE%B1%CF%82/",
+      "destination": "/posts/episode-008-thodoris-tsekouras/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-009-%CE%B4%CE%B7%CE%BC%CE%B9%CE%BF%CF%85%CF%81%CE%B3%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1/",
+      "destination": "/posts/episode-009-creativity/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-010-%CE%B3%CE%B9%CF%8E%CF%81%CE%B3%CE%BF%CF%82-%CE%BC%CE%B9%CE%BA%CF%81%CE%BF%CE%B3%CE%B9%CE%B1%CE%BD%CE%BD%CE%AC%CE%BA%CE%B7%CF%82/",
+      "destination": "/posts/episode-010-giorgos-mikrogiannakis/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/episode-011-%CF%84%CE%AD%CE%BB%CE%BF%CF%82-%CF%84%CE%B7%CF%82-season1/",
+      "destination": "/posts/episode-010-end-season-1/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/ink-project-the-end-feat.-fifi-rong/",
+      "destination": "/posts/ink-project-the-end-feat-fifi-rong/",
+      "permanent": true
+    }
+  ]
 }
